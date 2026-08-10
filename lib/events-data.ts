@@ -40,18 +40,67 @@ export interface Event {
 
 export const events: Event[] = [
   {
+    id: "datajam-2026",
+    title: "DataJam 2026",
+    tagline: "Build Practical Data Science Solutions",
+    description:
+      "DataJam 2026 brings students together for a weekend of data science, machine learning, and rapid prototyping.",
+    longDescription:
+      "Join us for a hands-on hackathon where teams build data-driven solutions to real-world problems. Whether you are looking to sharpen your modeling skills, explore new tools, or collaborate with other students, DataJam 2026 will combine mentorship, teamwork, and friendly competition across a full day of development.",
+    date: "October 17, 2026",
+    time: "10:00 AM - 10:00 PM",
+    location: "SFU Burnaby Campus",
+    capacity: "100 participants",
+    status: "registration-open",
+    category: "Hackathon",
+    registrationLink: "/contact",
+    details: {
+      eligibility: "Open to all SFU students and students from other universities. All experience levels are welcome.",
+      teamSize: "Teams of 1-4 people. You can register individually and form teams on site.",
+      prizes: "Prizes will be announced closer to the event.",
+      food: "Meals and refreshments will be provided throughout the day.",
+    },
+    schedule: [
+      { time: "10:00 AM", title: "Check-In", description: "Arrival, swag pickup, and team setup" },
+      { time: "10:30 AM", title: "Opening Remarks", description: "Welcome, rules, and event overview" },
+      { time: "11:00 AM", title: "Hacking Begins", description: "Teams start building their projects" },
+      { time: "1:00 PM", title: "Lunch", description: "Lunch break and networking" },
+      { time: "4:00 PM", title: "Mentor Check-In", description: "Project feedback and support from mentors" },
+      { time: "7:00 PM", title: "Dinner", description: "Dinner break and final push" },
+      { time: "9:30 PM", title: "Submissions Due", description: "Final project uploads and demo prep" },
+      { time: "10:00 PM", title: "Demos and Awards", description: "Team presentations and prize announcements" },
+    ],
+    faq: [
+      {
+        question: "Do I need prior hackathon experience?",
+        answer: "No. We welcome first-time hackers and will have support available throughout the day.",
+      },
+      {
+        question: "Can I come without a team?",
+        answer: "Yes. You can register solo and form a team at the event.",
+      },
+      {
+        question: "What should I bring?",
+        answer: "Bring your laptop, charger, and anything else you need to work comfortably.",
+      },
+      {
+        question: "Will food be provided?",
+        answer: "Yes. Meals and refreshments will be available during the event.",
+      },
+    ],
+  },
+  {
     id: "hackml-2026",
     title: "HackML 2026",
     tagline: "Build the Future with Machine Learning",
     description:
-      "HackML 2026 is the first machine-learning-focused hackathon at SFU, where teams attempt to construct the best ML-models for each given question.",
+      "HackML 2026 was the first machine-learning-focused hackathon at SFU, where teams attempted to construct the best ML-models for each given question.",
     longDescription:
-      "Join us for an intensive 12-hour hackathon focused on machine learning and artificial intelligence. Whether you're a beginner or an experienced ML practitioner, HackML offers opportunities to learn, collaborate, and innovate. Work in teams of up to 4 people to develop ML-powered applications, receive mentorship from industry professionals, and compete for small prizes.",
+      "An intensive 12-hour hackathon focused on machine learning and artificial intelligence. Whether you're a beginner or an experienced ML practitioner, HackML offers opportunities to learn, collaborate, and innovate. Work in teams of up to 4 people to develop ML-powered applications, receive mentorship from industry professionals, and compete for small prizes.",
     date: "January 31st, 2026",
-    time: "8:30 AM - 8:30 PM",
+    time: "12 hours",
     location: "SFU Burnaby Campus - SUB Ballroom",
-    capacity: "125 participants",
-    status: "registration-open",
+    status: "completed",
     category: "Hackathon",
     registrationLink: "https://portal-hackml.vercel.app/",
     details: {
@@ -69,28 +118,7 @@ export const events: Event[] = [
       { time: "6:00 PM", title: "Final Submission Deadline", description: "All model submissions must be completed and submitted through Kaggle by this time" },
       { time: "6:15 PM", title: "Dinner + Networking", description: "Pizza from Dominoes, and open networking with industry professionals and DSSS executives." },
       { time: "8:15 PM", title: "Result + Prizes + Closing Ceremony", description: "Prizes awarded + Judges gifts + Group photo" }
-    ],
-    faq: [
-      {
-        question: "Do I need ML experience?",
-        answer:
-          "No! We welcome all skill levels. We'll have workshops and mentors to help beginners get started with machine learning.",
-      },
-      {
-        question: "What should I bring?",
-        answer:
-          "Bring your laptop, charger, and any other devices you need. We'll provide food, drinks, and workspace.",
-      },
-      {
-        question: "Can I work alone?",
-        answer:
-          "Yes! You can participate individually or in teams of up to 4 people. We'll also have a team formation session.",
-      },
-      {
-        question: "Is there a registration fee?",
-        answer: "No, HackML is completely free to attend. All meals and resources are provided.",
-      },
-    ],
+    ]
   },
   {
     id: "DataJam-2025",
@@ -143,7 +171,7 @@ export const events: Event[] = [
     description:
       "Hear from data science professionals about their career journeys, industry insights, and practical advice for students entering the field.",
     date: "February 2026",
-    location: "TBA",
+    location: "SFU Burnaby Campus",
     status: "completed",
     category: "Panel",
   },
