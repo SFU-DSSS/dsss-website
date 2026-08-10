@@ -102,23 +102,26 @@ export const events: Event[] = [
     location: "SFU Burnaby Campus - SUB Ballroom",
     status: "completed",
     category: "Hackathon",
-    registrationLink: "https://portal-hackml.vercel.app/",
-    details: {
-      eligibility: "Open to all SFU students and students from other universities. All skill levels welcome.",
-      teamSize: "Teams of 1-4 people. Register individually, and use the team code to add members to your team. Team formation will be done through Discord.",
-      prizes: "$200 in small prizes for winning teams.",
-      food: "Meals and beverages provided throughout the event.",
-    },
-    schedule: [
-      { time: "8:30 AM", title: "Check-ins", description: "Participant check-in" },
-      { time: "9:00 AM", title: "Opening Ceremony", description: "Welcome, agenda, rules, and team formation" },
-      { time: "9:30 AM", title: "Competition Begins", description: "Datasets and problems released for teams" },
-      { time: "12:00 PM", title: "Lunch", description: "Sushi from T&T - Limit 8 per person (until further notice)" },
-      { time: "3:00 PM", title: "Mid-point Check-ins", description: "Brief progress update and Q&A session with competition organizers" },
-      { time: "6:00 PM", title: "Final Submission Deadline", description: "All model submissions must be completed and submitted through Kaggle by this time" },
-      { time: "6:15 PM", title: "Dinner + Networking", description: "Pizza from Dominoes, and open networking with industry professionals and DSSS executives." },
-      { time: "8:15 PM", title: "Result + Prizes + Closing Ceremony", description: "Prizes awarded + Judges gifts + Group photo" }
-    ]
+    highlights: [
+      "100+ participants from SFU and UBC",
+      "___ project submissions",
+      "Special Guest Mentor: _____",
+      "$200 in small prizes awarded",
+    ],
+    winners: [
+      {
+        place: "",
+        team: "",
+        project: "",
+        description: "",
+      },
+      {
+        place: "",
+        team: "",
+        project: "",
+        description: "",
+      }
+    ],
   },
   {
     id: "DataJam-2025",
