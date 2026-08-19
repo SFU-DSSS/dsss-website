@@ -47,13 +47,13 @@ export const events: Event[] = [
       "DataJam 2026 brings students together for a weekend of data science, machine learning, and rapid prototyping.",
     longDescription:
       "Join us for a hands-on hackathon where teams build data-driven solutions to real-world problems. Whether you are looking to sharpen your modeling skills, explore new tools, or collaborate with other students, DataJam 2026 will combine mentorship, teamwork, and friendly competition across a full day of development.",
-    date: "October 17, 2026",
+    date: "TBD",
     time: "10:00 AM - 10:00 PM",
     location: "SFU Burnaby Campus",
     capacity: "100 participants",
     status: "registration-open",
     category: "Hackathon",
-    registrationLink: "/contact",
+    registrationLink: "TBD",
     details: {
       eligibility: "Open to all SFU students and students from other universities. All experience levels are welcome.",
       teamSize: "Teams of 1-4 people. You can register individually and form teams on site.",
@@ -61,14 +61,15 @@ export const events: Event[] = [
       food: "Meals and refreshments will be provided throughout the day.",
     },
     schedule: [
-      { time: "10:00 AM", title: "Check-In", description: "Arrival, swag pickup, and team setup" },
-      { time: "10:30 AM", title: "Opening Remarks", description: "Welcome, rules, and event overview" },
-      { time: "11:00 AM", title: "Hacking Begins", description: "Teams start building their projects" },
-      { time: "1:00 PM", title: "Lunch", description: "Lunch break and networking" },
-      { time: "4:00 PM", title: "Mentor Check-In", description: "Project feedback and support from mentors" },
-      { time: "7:00 PM", title: "Dinner", description: "Dinner break and final push" },
-      { time: "9:30 PM", title: "Submissions Due", description: "Final project uploads and demo prep" },
-      { time: "10:00 PM", title: "Demos and Awards", description: "Team presentations and prize announcements" },
+      { time: "10:00 AM", title: "Check-In", description: "Arrival, registration, and team setup" },
+      { time: "10:30 AM", title: "Opening Ceremony", description: "Welcome, rules, and event overview" },
+      { time: "11:00 AM", title: "Round 1 Presentations", description: "Preliminary round of presentations" },
+      { time: "12:30 PM", title: "Judge Deliberation Period", description: "Judges will deliberate and announce the finalists from each cohort" },
+      { time: "1:30 PM", title: "Lunch Break", description: "Lunch break and networking" },
+      { time: "2:30 PM", title: "Hacking Session", description: "" },
+      { time: "3:00 PM", title: "Finalists Presentations", description: "" },
+      { time: "4:45 PM", title: "Judge Deliberation Period and Snack Time", description: "Judges will deliberate while participants can grab a snack" },
+      { time: "5:45 PM", title: "Winner Announcements and Closing Ceremony", description: "Prize announcements and event conclusion" },
     ],
     faq: [
       {
@@ -90,6 +91,46 @@ export const events: Event[] = [
     ],
   },
   {
+    id: "study-cafe-summer-2026",
+    title: "DSSS Study Session",
+    description:
+      "Pre-finals: recharge, refocus, and study with us — cozy lock‑in vibes, free snacks, and a calm space to get things done.",
+    date: "April 7, 2026",
+    location: "SFU Burnaby Campus",
+    status: "completed",
+    category: "Social",
+  },
+  {
+    id: "industry-panel-summer-2026",
+    title: "Data Science Career Panel",
+    description:
+      "Hear from data science professionals about their career journeys, industry insights, and practical advice for students entering the field.",
+    date: "June 28, 2026",
+    location: "SFU Burnaby Campus",
+    status: "completed",
+    category: "Panel",
+  },
+  {
+    id: "study-cafe-spring-2026",
+    title: "DSSS Study Cafe: 'Tea Test'",
+    description:
+      "Need a space to study for finals or finish up assignments? Join us for a relaxed, drop-in study session with tea and snacks provided.",
+    date: "April 7, 2026",
+    location: "SFU Burnaby Campus",
+    status: "completed",
+    category: "Social",
+  },
+  {
+    id: "boardgame-social-spring-2026",
+    title: "Board Game Social",
+    description:
+      "Come play board games and meet fellow data science enthusiasts in a relaxed setting.",
+    date: "April 2, 2026",
+    location: "SFU Burnaby Campus",
+    status: "completed",
+    category: "Social",
+  },
+  {
     id: "hackml-2026",
     title: "HackML 2026",
     tagline: "Build the Future with Machine Learning",
@@ -97,9 +138,9 @@ export const events: Event[] = [
       "HackML 2026 was the first machine-learning-focused hackathon at SFU, where teams attempted to construct the best ML-models for each given question.",
     longDescription:
       "An intensive 12-hour hackathon focused on machine learning and artificial intelligence. Whether you're a beginner or an experienced ML practitioner, HackML offers opportunities to learn, collaborate, and innovate. Work in teams of up to 4 people to develop ML-powered applications, receive mentorship from industry professionals, and compete for small prizes.",
-    date: "January 31st, 2026",
+    date: "January 31, 2026",
     time: "12 hours",
-    location: "SFU Burnaby Campus - SUB Ballroom",
+    location: "SFU Burnaby Campus",
     status: "completed",
     category: "Hackathon",
     highlights: [
@@ -110,16 +151,22 @@ export const events: Event[] = [
     ],
     winners: [
       {
-        place: "",
-        team: "",
-        project: "",
-        description: "",
+        place: "First",
+        team: "The Optimizers",
+        project: "Fraud",
+        description: "Classify a level of a fraud from the given features like amount and type of transaction. Predict whether a transaction is a fraud.",
       },
       {
-        place: "",
-        team: "",
-        project: "",
-        description: "",
+        place: "First",
+        team: "DengGang",
+        project: "Deng AI",
+        description: "Build a model to predict the number of dengue fever cases reported each week in two cities using environmental and climate-related data.",
+      },
+      {
+        place: "First",
+        team: "LE COOKED FAM/WINNER",
+        project: "NGS",
+        description: "Predict whether recent graduates are underemployed (overqualified for their current position) based on their educational background, demographics, and other characteristics.",
       }
     ],
   },
@@ -169,11 +216,21 @@ export const events: Event[] = [
     ],
   },
   {
-    id: "industry-panel-spring-2026",
+    id: "wow-fall-2025",
+    title: "Jeopardy Night",
+    description:
+      "Trivia, pizza, and good vibes — all in one place.",
+    date: "September 24, 2025",
+    location: "SFU Burnaby Campus",
+    status: "completed",
+    category: "Social",
+  },
+  {
+    id: "industry-panel-summer-2025",
     title: "Data Science Career Panel",
     description:
       "Hear from data science professionals about their career journeys, industry insights, and practical advice for students entering the field.",
-    date: "February 2026",
+    date: "July 12, 2025",
     location: "SFU Burnaby Campus",
     status: "completed",
     category: "Panel",
