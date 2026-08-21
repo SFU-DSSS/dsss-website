@@ -145,8 +145,7 @@ export const events: Event[] = [
     category: "Hackathon",
     highlights: [
       "100+ participants from SFU and UBC",
-      "___ project submissions",
-      "Special Guest Mentor: _____",
+      "Special Guest Mentor: Efe Erhan",
       "$200 in small prizes awarded",
     ],
     winners: [
