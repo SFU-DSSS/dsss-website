@@ -65,7 +65,7 @@ export const events: Event[] = [
     capacity: "100 participants",
     status: "registration-open",
     category: "Hackathon",
-    registrationLink: "/events/globalytics-2026/register",
+    registrationLink: "NA",
     details: {
       eligibility: "Open to Business, Data Science, and Computer Science students.",
       teamSize: "Teams of 4. The event will accommodate up to 25 teams.",
