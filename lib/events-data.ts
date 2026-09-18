@@ -17,6 +17,7 @@ export interface Event {
   details?: {
     eligibility?: string
     teamSize?: string
+    pricing?: string
     prizes?: string
     food?: string
   }
@@ -40,6 +41,59 @@ export interface Event {
 
 export const events: Event[] = [
   {
+    id: "sassa-wow-2026",
+    title: "SASSA WoW Event",
+    description: "Join SASSA for an evening event from 4:30pm to 7:30pm.",
+    date: "Thursday, September 24, 2026",
+    time: "4:30pm - 7:30pm",
+    location: "SFU Burnaby Campus",
+    status: "registration-open",
+    category: "Social",
+    registrationLink: "NA",
+  },
+  {
+    id: "globalytics-2026",
+    title: "Globalytics 2026 (AIESEC x DSSS)",
+    tagline: "Solve global challenges with data",
+    description:
+      "Globalytics 2026 brings Business, Data Science, and Computer Science students together for a team-based analytics competition.",
+    longDescription:
+      "AIESEC and DSSS are bringing students together for Globalytics 2026. Register through the event form, complete RSVP Round 1 and RSVP Round 2, then compete in teams of four through a cohort-based challenge judged by professionals and senior students.",
+    date: "Sunday, October 25, 2026",
+    time: "10:00am - 7:30pm",
+    location: "Ballroom, TASC 9204",
+    capacity: "100 participants",
+    status: "registration-open",
+    category: "Hackathon",
+    registrationLink: "/events/globalytics-2026/register",
+    details: {
+      eligibility: "Open to Business, Data Science, and Computer Science students.",
+      teamSize: "Teams of 4. The event will accommodate up to 25 teams.",
+      pricing: "Early bird: $10 per person. Regular: $15 per person. Four-person group: $35 early bird or $55 regular.",
+      prizes: "The top 5 teams will be recognized, alongside the professional judges.",
+    },
+    highlights: [
+      "Registration Form followed by RSVP Round 1 and RSVP Round 2",
+      "25 teams organized into 5 cohorts",
+      "Each cohort is supported by 1 professional judge and 1 senior student",
+      "Target capacity of 100 participants",
+      "Top 5 teams and the professional judges recognized at the event",
+    ],
+    schedule: [
+      { time: "9:30 AM - 10:00 AM", title: "Setup & Venue Preparation", description: "Setup and venue preparation" },
+      { time: "10:00 AM - 10:30 AM", title: "Check-in & Registration Begins", description: "Participant check-in and registration" },
+      { time: "10:30 AM - 11:00 AM", title: "Opening Ceremony & Event Briefing & OGX Presentation", description: "Opening ceremony, event briefing, and OGX presentation" },
+      { time: "11:00 AM - 12:00 PM", title: "Round 1 Presentations", description: "Round 1 team presentations" },
+      { time: "12:00 PM - 1:00 PM", title: "Round 2 Presentations", description: "Round 2 team presentations" },
+      { time: "1:00 PM - 2:30 PM", title: "Lunch Break", description: "Lunch break while judges deliberate in a separate room; blank time for participants" },
+      { time: "2:30 PM - 3:15 PM", title: "Hacking Session", description: "Finalists prepare for their final presentations" },
+      { time: "3:15 PM - 4:30 PM", title: "Finalist Presentations", description: "Finalists present their projects" },
+      { time: "5:30 PM - 6:30 PM", title: "Judge Deliberation Period + Snacks", description: "Judges deliberate while participants enjoy snacks" },
+      { time: "6:30 PM - 7:00 PM", title: "Winner Announcement & Closing Ceremony", description: "Winners are announced and the event concludes" },
+      { time: "7:00 PM - 7:30 PM", title: "Clean-up", description: "Venue clean-up" },
+    ],
+  },
+  {
     id: "datajam-2026",
     title: "DataJam 2026",
     tagline: "Build Practical Data Science Solutions",
@@ -53,7 +107,7 @@ export const events: Event[] = [
     capacity: "100 participants",
     status: "registration-open",
     category: "Hackathon",
-    registrationLink: "TBD",
+    registrationLink: "NA",
     details: {
       eligibility: "Open to all SFU students. All experience levels are welcome.",
       teamSize: "Teams of 1-4 people. You can register individually and form teams on site.",
