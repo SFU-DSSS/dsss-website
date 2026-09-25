@@ -60,7 +60,7 @@ export const events: Event[] = [
     longDescription:
       "AIESEC and DSSS will provide teams with a business case and accompanying dataset before the competition. The case is planned to be released on October 18, giving teams one week to work before the October 25 event. Registration follows a form, RSVP Round 1, and RSVP Round 2. AIESEC leads the business case, sponsorship, ticket sales, and slides, while DSSS leads the dataset, logistics, judging rubric, workshops, and judge outreach.",
     date: "Sunday, October 25, 2026",
-    time: "9:30am - 6:30pm",
+    time: "10:00am - 6:30pm",
     location: "SUB Ballroom, SFU Burnaby Campus (with a separate room for judges)",
     capacity: "100 participants",
     status: "registration-open",
@@ -83,7 +83,6 @@ export const events: Event[] = [
       "Marketing across Instagram, Discord, email newsletters, Sci-Space, LinkedIn, and campus posters",
     ],
     schedule: [
-      { time: "9:30 AM - 10:00 AM", title: "Setup & Venue Preparation", description: "Setup and venue preparation" },
       { time: "10:00 AM - 10:30 AM", title: "Check-in & Registration Begins", description: "Participant check-in and registration" },
       { time: "10:30 AM - 11:00 AM", title: "Opening Ceremony & Event Briefing", description: "Opening ceremony, event briefing, and OGX presentation" },
       { time: "11:00 AM - 12:00 PM", title: "Round 1 Presentations", description: "Round 1 team presentations" },
@@ -123,7 +122,7 @@ export const events: Event[] = [
     longDescription:
       "Teams receive a case and dataset on their first working day, then have a 3- or 4-day working period between October 25 and November 7 to complete their analysis and presentation. On event day, 24 teams compete across four cohorts of six groups. Each cohort has three judges and sends its strongest team to the final round, where the four finalists present to the full judging panel.",
     date: "Sunday, November 8, 2026",
-    time: "9:30am - 6:30pm",
+    time: "10:00am - 6:30pm",
     location: "SUB Ballroom, SFU Burnaby Campus",
     capacity: "24 teams (groups of 4 or fewer)",
     status: "registration-open",
