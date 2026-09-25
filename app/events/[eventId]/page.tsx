@@ -193,6 +193,15 @@ export default async function EventDetailPage({ params }: { params: Promise<{ ev
 
                       <Card>
                         <CardHeader>
+                          <CardTitle className="text-navy-dark">Pricing</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <p className="text-muted-foreground leading-relaxed">{event.details.pricing}</p>
+                        </CardContent>
+                      </Card>
+
+                      <Card>
+                        <CardHeader>
                           <CardTitle className="text-navy-dark">
                             <Trophy className="mr-2 inline h-5 w-5 text-primary" />
                             Prizes
