@@ -47,7 +47,7 @@ export const events: Event[] = [
     date: "Thursday, September 24, 2026",
     time: "4:30pm - 7:30pm",
     location: "SFU Burnaby Campus",
-    status: "registration-open",
+    status: "completed",
     category: "Social",
     registrationLink: "NA",
   },
