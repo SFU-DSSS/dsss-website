@@ -65,7 +65,6 @@ export const events: Event[] = [
     capacity: "24 teams (groups of 4 or fewer)",
     status: "registration-closed",
     category: "Hackathon",
-    registrationLink: "https://datajam.sfudsss.com",
     details: {
       eligibility: "Open to data science students at Simon Fraser University. Teams must sign up by November 4, 2026.",
       teamSize: "24 teams of 4 or fewer, organized into four cohorts of six groups. Unfilled teams are formed November 4-7.",
