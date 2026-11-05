@@ -63,7 +63,7 @@ export const events: Event[] = [
     time: "10:00am - 6:30pm",
     location: "SUB Ballroom, SFU Burnaby Campus",
     capacity: "24 teams (groups of 4 or fewer)",
-    status: "registration-open",
+    status: "registration-closed",
     category: "Hackathon",
     registrationLink: "https://datajam.sfudsss.com",
     details: {
